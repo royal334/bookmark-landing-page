@@ -1,10 +1,13 @@
 import React,{ useState} from 'react'
 import { motion } from 'motion/react'
+import Image1 from '/images/illustration-features-tab-1.svg'
+import Image2 from '/images/illustration-features-tab-2.svg'
+import Image3 from '/images/illustration-features-tab-3.svg'
 
 const images = [
-     '/images/illustration-features-tab-1.svg',
-     '/images/illustration-features-tab-2.svg',
-     '/images/illustration-features-tab-3.svg',
+          Image1,
+          Image2,
+          Image3,
 ]
 function Carousel() {
      const [ currentIndex, setCurrentIndex] = useState(0)

@@ -1,4 +1,5 @@
 import React from 'react'
+import HeroIllustration from '/images/illustration-hero.svg'
 
 function Hero() {
   return (
@@ -6,7 +7,7 @@ function Hero() {
     <section id= "hero" className='px-4 md:px-0'>
      <div className='container mx-auto py-20 flex flex-col md:flex-row justify-between gap-10'>
           <div className='md:order-3' >
-               <img src="/images/illustration-hero.svg" alt="" />
+               <img src={HeroIllustration} alt="hero-illustration" />
           </div>
 
           <div >

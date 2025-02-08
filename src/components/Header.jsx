@@ -1,4 +1,7 @@
 import React, { useState, useEffect }  from 'react'
+import Logo from '/images/logo-bookmark.svg'
+import Facebook from '/images/icon-facebook.svg'
+import Twitter from '/images/icon-twitter.svg'
 
 function Header() {
      const[isOpen, setIsOpen] = useState(false)
@@ -30,7 +33,7 @@ function Header() {
                <>
                <header >
                     <div className='container mx-auto flex justify-between items-center px-4 md:px-4 py-8 flex-wrap md:flex-nowrap'>
-                         <img src="/images/logo-bookmark.svg" alt="logo" />
+                         <img src={Logo} alt="logo" />
                          
                          <button className="md:hidden " onClick={toggleMenu}>
                          <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -54,8 +57,8 @@ function Header() {
                                    </div>
                                    {isOpen &&
                                    <div className='flex gap-10 mt-auto'>
-                                        <img src='/images/icon-facebook.svg' alt='facebook icon' />
-                                        <img src='/images/icon-twitter.svg' alt='twitter icon' />
+                                        <img src={Facebook} alt='facebook icon' />
+                                        <img src={Twitter} alt='twitter icon' />
                                    </div>
                                    }
                               </ul>

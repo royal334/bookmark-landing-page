@@ -1,4 +1,8 @@
 import React from 'react'
+import Dots from  '/images/bg-dots.svg'
+import Chrome from '/images/logo-chrome.svg'
+import Firefox from '/images/logo-firefox.svg'
+import Opera from '/images/logo-opera.svg'
 
 function Download() {
   return (
@@ -12,26 +16,26 @@ function Download() {
                     <div className='flex flex-col md:flex-row gap-4 justify-center'>
                          
                          <div className='bg-white px-4 rounded-xl py-10 flex flex-col items-center shadow-2xl md:mb-20'>
-                              <img src="/images/logo-chrome.svg" alt="google chrome logo" />
+                              <img src={Chrome} alt="google chrome logo" />
                               <h3 className='text-[#252b46] font-bold text-xl mt-6 mb-2'>Add to Chrome</h3>
                               <p className='text-[#9194a1] mb-8'>Minimum version 62</p>
-                              <img className='mb-6' src="/images/bg-dots.svg" alt="" />
+                              <img className='mb-6' src={Dots} alt="" />
                               <button className='bg-[#5368df] text-white py-2 px-4 rounded-lg cursor-pointer hover:text-[#5368df] hover:bg-white hover:border-[#5368df] hover:border-2 hover:shadow-lg~'>Add & Install Extension</button>
                          </div>
 
                          <div className='bg-white px-4 rounded-xl py-10 flex flex-col items-center shadow-2xl md:mt-10 md:mb-10'>
-                              <img src="/images/logo-firefox.svg" alt="firefox logo" />
+                              <img src={Firefox} alt="firefox logo" />
                               <h3 className='text-[#252b46] font-bold text-xl mt-6 mb-2'>Add to Chrome</h3>
                               <p className='text-[#9194a1] mb-8'>Minimum version 55</p>
-                              <img className='mb-6' src="/images/bg-dots.svg" alt="" />
+                              <img className='mb-6' src={Dots} alt="" />
                               <button className='bg-[#5368df] text-white py-2 px-4 rounded-lg cursor-pointer hover:text-[#5368df] hover:bg-white hover:border-[#5368df] hover:border-2 hover:shadow-lg~'>Add & Install Extension</button>
                          </div>
                          
                          <div className='bg-white px-4 rounded-xl py-10 flex flex-col items-center shadow-2xl md:mt-20'>
-                              <img src="/images/logo-opera.svg" alt="opera logo" />
+                              <img src={Opera} alt="opera logo" />
                               <h3 className='text-[#252b46] font-bold text-xl mt-6 mb-2'>Add to Chrome</h3>
                               <p className='text-[#9194a1] mb-8'>Minimum version 46</p>
-                              <img className='mb-6' src="/images/bg-dots.svg" alt="" />
+                              <img className='mb-6' src={Dots} alt="" />
                               <button className='bg-[#5368df] text-white py-2 px-4 rounded-lg cursor-pointer hover:text-[#5368df] hover:bg-white hover:border-[#5368df] hover:border-2 hover:shadow-lg~'>Add & Install Extension</button>
                          </div>
                     </div>

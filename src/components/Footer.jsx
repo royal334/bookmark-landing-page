@@ -1,5 +1,6 @@
 import React from 'react'
-
+import Facebook from '/images/icon-facebook.svg'
+import Twitter from '/images/icon-twitter.svg'
 function Footer() {
   return (
     <section className='px-4 md:px-0 py-6 bg-[#252b46]'>
@@ -14,8 +15,8 @@ function Footer() {
                          </ul>
                     </div>
                     <div className='flex gap-8 mt-4 md:mt-0 md:gap-4'>
-                         <img className='cursor-pointer hover:text-[#fa5757]' src="/images/icon-facebook.svg" alt="facebook icon" />
-                         <img className='cursor-pointer hover:text-[#fa5757]' src="images/icon-twitter.svg" alt="twitter icon" />
+                         <img className='cursor-pointer hover:text-[#fa5757]' src={Facebook} alt="facebook icon" />
+                         <img className='cursor-pointer hover:text-[#fa5757]' src={Twitter} alt="twitter icon" />
                     </div>
                </div>
           </div>
