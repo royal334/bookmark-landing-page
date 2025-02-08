@@ -16,7 +16,7 @@ This is a solution to the [Bookmark landing page challenge on Frontend Mentor](h
 This is a bookmark mock-up landing page. It utilizes framer motion for little animation and is built in react with the help of tailwind and a mobile first workflow
 
 ### Screenshot
-[Project Preview] (/images/project-image)
+![Project Preview](/images/project-image.jpg)
 
 
 ### Built with
